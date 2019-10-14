@@ -22,11 +22,10 @@ class HomePage extends React.Component {
         return (
             <div>
                 <h1>Home</h1>
-                <p>Welcome {currentUser.role}</p>
-                <p>You are Suceesfully logged in to the Portal</p>
+                <p>Welcome {currentUser.role} User</p>
                 
                 <div>
-                    Current user from secure api end point:
+                   Below is the Graph for Admin User
                     {userFromApi &&
                         <ul>
                             <li>{userFromApi.firstName} {userFromApi.lastName}</li>
