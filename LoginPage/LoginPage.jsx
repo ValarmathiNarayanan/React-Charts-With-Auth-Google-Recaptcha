@@ -46,9 +46,9 @@ class LoginPage extends React.Component {
     return (
       <div>
         <div className="alert alert-info">
-          <strong>For Normal User</strong> - U: user P: user
+          <strong>For Normal User</strong> - User Name: user Password: user
           <br />
-          <strong>For Administrator</strong> - U: admin P: admin
+          <strong>For Administrator</strong> - User Name: admin Password: admin
         </div>
 
         <h2>Login</h2>
