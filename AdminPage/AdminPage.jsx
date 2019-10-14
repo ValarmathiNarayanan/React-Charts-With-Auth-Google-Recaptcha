@@ -20,7 +20,7 @@ class AdminPage extends React.Component {
         return (
             <div>
                 <h1>Admin</h1>
-                <p>This page can only be accessed by administrators.</p>
+                <p>Welcome <b>Admin User</b></p>
                 <div>
                     All users from secure (admin only) api end point:
                     {users &&
