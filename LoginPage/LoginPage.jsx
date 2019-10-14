@@ -4,7 +4,7 @@ import * as Yup from "yup";
 import ReCAPTCHA from "react-google-recaptcha";
 import { authenticationService } from "../_services";
 const TEST_SITE_KEY = "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI";
-const DELAY = 1500;
+const DELAY = 100;
 class LoginPage extends React.Component {
   constructor(props, ...args) {
     super(props, ...args);
